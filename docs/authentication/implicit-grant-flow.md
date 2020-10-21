@@ -1,6 +1,6 @@
 # Implicit Grant Flow
 
-Implicit Grant flow is an authorization flow (OAuth 2.0) for browser based apps. If you are building a browser only app and do not have a serverside component , Implicit Grant is the reccomended flow. Implicit grant ensures that your app enables your user to securely login and grant access to only those resources that they consent to . Implicit grant secures your app in a browser enviornment.
+Implicit Grant flow is an authorization flow (OAuth 2.0) for browser based apps. If you are building a browser only app and do not have a serverside component, Implicit Grant is the recommended flow. Implicit grant ensures that your app enables your user to securely login and grant access to only those resources that they consent to. Implicit grant secures your app in a browser enviornment.
 
 This 2-legged authorization flow used by RingCentral involves obtaining an access token from API server, and using the access token for making API calls.The general flow looks like this:
 
